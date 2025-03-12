@@ -26,10 +26,21 @@
   color: white;
 }
 
+.App-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin: 24px;
+}
+
 .App-section {
   flex: 1 1 0;
   background-color: hsl(220deg 13% 13%);
   color: white;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .App-link {
@@ -43,4 +54,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.character-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: auto;
+  width: fit-content;
 }
