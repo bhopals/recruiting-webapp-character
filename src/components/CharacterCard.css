@@ -1,0 +1,56 @@
+.character-content {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.attribute-list,
+.class-list,
+.skill-list {
+  border: 1px solid #444;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #222;
+}
+
+.attribute-item,
+.skill-item {
+  display: flex;
+  padding: 5px;
+}
+
+button {
+  margin-left: 5px;
+  background-color: #666;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #888;
+}
+
+.class-item {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.class-item.eligible {
+  color: red;
+  font-weight: bold;
+}
+
+.class-requirements {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 5px;
+}
